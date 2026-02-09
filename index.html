@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+ <meta charset="UTF-8">
+  <title>Imagen Expandible</title>
+  <style>
+    .imagen-expandible {
+      width: 300px;
+      height: 300px;
+      transition: all 0.3s ease; /* Animación suave */
+      object-fit: cover; /* Ajusta la imagen dentro del cuadro */
+    }
+
+    .imagen-expandible:hover {
+      width: auto;   /* Se expande al tamaño real */
+      height: auto;
+      max-width: 100%; /* Evita que se desborde del contenedor */
+    }
+  </style>
+
+
+  
+
+
+
+
+
+
+
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bustos Memoriales</title>
@@ -59,6 +87,10 @@
     <p>Un homenaje eterno para seres queridos y mascotas</p>
   </header>
 
+
+<img src="bus1.png" alt="Imagen expandible" class="imagen-expandible">
+
+  
   <section>
     <h2>Sobre nuestro trabajo</h2>
     <p>
